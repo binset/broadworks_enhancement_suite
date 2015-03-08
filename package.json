@@ -1,0 +1,14 @@
+{
+  "name": "broadworks_enhancement_suite",
+  "title": "broadworks_enhancement_suite",
+  "id": "jid1-UNTBHz8ntJPD0w",
+  "author": "",
+  "license": "MPL 2.0",
+  "version": "1.0e",
+  "homepage": "http://bes.com/",
+  "readmeFilename": "README.md",
+  "icon": "data/on64.png",
+  "icon64": "data/on64.png",
+  "description": "A suite of modules that enhances your Broadworks Commpilot browsing experience",
+  "readmeFilename": "README.md"
+}
