@@ -19,3 +19,4 @@ Functionalities:
 Versions:
         2015/03/03 Version 1.0d Initial Production Version
         2015/03/05 Version 1.0e Improved keyboard focus handling
+		2015/03/13 Version 1.0f Fixed bug with Busy Lamp Field search criteria selection

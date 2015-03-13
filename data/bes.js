@@ -43,6 +43,7 @@ Functionalities:
 Versions:
         2015/03/03 Version 1.0d Initial Production Version
         2015/03/05 Version 1.0e Improved keyboard focus handling
+		2015/03/13 Version 1.0f Fixed bug with Busy Lamp Field search criteria selection
  
 */
  
@@ -168,7 +169,7 @@ function process_commpilot_webpage()
                 debug('\ttry to select FNN field');
                 javascript:(function(){
                         var d=document;
-                        var s=d.getElementsByTagName('SELECT')[0];
+                        var s=d.getElementById('findKey0');
                         var o=s.getElementsByTagName('OPTION');
                         var S='selected';
                         var v='Dn';
@@ -188,7 +189,7 @@ function process_commpilot_webpage()
                 debug('\ttry to select CONTAINS field');
                 javascript:(function(){
                         var d=document;
-                        var s=d.getElementsByTagName('SELECT')[1];
+                        var s=d.getElementById('findOp0');
                         var o=s.getElementsByTagName('OPTION');
                         var S='selected';
                         var v='CONTAINS';
